@@ -6,4 +6,4 @@ In the previous tutorial, we learned how to use feature timelines for our experi
 - [Download](firstSweetPea.ipynb)
 - [Google colab](https://colab.research.google.com/github/younesStrittmatter/JATOSTutorialComplete/blob/master/firstSweetPea.ipynb)
 
-[Home](index.md) [Next]()
+[Home](index.md) [Next](addingSequence.md)

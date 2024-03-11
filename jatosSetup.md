@@ -10,7 +10,7 @@
 - In the browser, add a new component (navigate to your study and click on `New component`
 - Name the component and add the file-path (`experiment.html`)
 
-You can add more components and other files like stylesheets or data files to this directory. In the [tutorial for session variables](), we will add an informed consent page to demonstrate this.
+You can add more components and other files like stylesheets or data files to this directory.
 
 [Home](index.html) [Next](singleStroopTrial.html)
 
