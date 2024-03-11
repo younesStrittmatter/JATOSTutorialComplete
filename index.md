@@ -7,4 +7,4 @@ For a complete guide follow the [Step-by-step](jatosSetup.md) tutorial.
 1. [JATOS: Project setup](jatosSetup.html)
 2. [jsPsych: Single Stroop trial](singleStroopTrial.html)
 3. [jsPsych: Adding timeline variables](timelineVariables.md)
-4. [sweetPea: First feature timeline](firstSweetPeaFirst.ipynb)
+4. [sweetPea: Create a Stroop task sequence](firstSweetPea.md)

@@ -234,3 +234,4 @@ Our code for a simple stroop task is now finished. If we want to add trials or c
   </script>
 </html>
 ```
+[Home](index.md) [Next](firstSweetPea.md)

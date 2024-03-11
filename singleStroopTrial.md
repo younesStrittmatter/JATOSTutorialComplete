@@ -346,7 +346,7 @@ We also want to add feedback. Remember: If the color is `blue`, the participant 
 ```
 Here, we learned how to create a single stimulus sequence. The next tutorial will show how we can chain these together to create a block.
 
-[Home](index.md) [Next]()
+[Home](index.md) [Next](timelineVariables.md)
 
 
 
