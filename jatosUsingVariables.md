@@ -210,4 +210,4 @@ Since participants start the experiment without finishing it, it is advised to u
 </html>
 ```
 
-[Home](index.md) [Next]()
+[Home](index.md) [Next](jatosURLVariables.md)
