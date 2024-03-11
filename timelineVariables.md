@@ -227,7 +227,6 @@ Our code for a simple stroop task is now finished. If we want to add trials or c
         timeline_variables: featureSequence
     }
     
-    // In the timeline, we now have a single trial
     const timeline = [trial]
     
     jsPsych.run(timeline)  
