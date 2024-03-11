@@ -1,10 +1,11 @@
 # From Zero to Hero: Online Experimentation
+These tutorials show step-by-step how to create an online experiment. We use JATOS to serve the experiment, jsPsych for the webpage, and sweetPea to generate counterbalanced sequences. 
+
+## Basics: Stroop Task
 For a complete guide follow the [Step-by-step](jatosSetup.md) tutorial.
 
-## Content
-
-### Basic: Stroop Task
-1. [JATOS: Project setup](jatosSetup.html)
+### Content
+1. [JATOS: Project setup](jatosSetup.md)
 2. [jsPsych: Single Stroop trial](singleStroopTrial.md)
 3. [jsPsych: Adding timeline variables](timelineVariables.md)
 4. [sweetPea: Create a task sequence](firstSweetPea.md)
@@ -13,6 +14,8 @@ For a complete guide follow the [Step-by-step](jatosSetup.md) tutorial.
 7. [JATOS: URL variables for **between** counterbalancing](jatosURLVariables.md)
 8. [JATOS: Upload Data](jatosUploadData.md)
 
-[Complete experiment files](basicExperimentComplete.md)
+### Complete experiment
+[Here](basicExperimentComplete.md) are the html and python files for the complete experiment.
 
-### Advanced: Stroop Task with task switching
+## Advanced: Stroop Task with task switching
+In this tutorial, we adjust the previous files to create a Stroop task with task switching between a color and a word naming task.
