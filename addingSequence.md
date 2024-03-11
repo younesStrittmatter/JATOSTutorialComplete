@@ -1,4 +1,4 @@
-# 5. jsPsych: Adding the created sequence
+# 5. jsPsych: Adding a sequence
 
 There are two ways to add the generated trial sequences. First, we can just copy the object into our
 script:

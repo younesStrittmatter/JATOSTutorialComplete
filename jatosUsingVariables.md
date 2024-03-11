@@ -1,4 +1,4 @@
-# 6. JATOS: Using JATOS variables
+# 6. JATOS: Batch variables for **within** counterbalancing
 
 A problem with the previous example is that each participant will get the same feature sequence.
 Here, we fix this by using JATOS batch variables. These variables are shared between all
