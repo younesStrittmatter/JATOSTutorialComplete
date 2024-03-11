@@ -12,5 +12,5 @@
 
 You can add more components and other files like stylesheets or data files to this directory. In the [tutorial for session variables](), we will add an informed consent page to demonstrate this.
 
-[Home](index.html) [Next](stroopTrial.html)
+[Home](index.html) [Next](singleStroopTrial.html)
 
