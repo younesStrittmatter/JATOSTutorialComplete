@@ -20,6 +20,11 @@ For a complete guide follow the [Step-by-step](jatosSetup.md) tutorial.
 ## Advanced: Stroop Task with task switching
 In this tutorial, we adjust the previous files to create a Stroop task with task switching between a color and a word naming task.
 
+Coming soon ...
+
+1. [jsPsych: Add cue](switchStroopTrial.md)
+2. [sweetPea: Add task transition](secondSweetPea.md)
+
 ## Resources
 - [JATOS](https://www.jatos.org/)
 - [jsPsych](https://www.jspsych.org/)
