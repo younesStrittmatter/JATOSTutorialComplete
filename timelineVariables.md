@@ -19,7 +19,8 @@ Let's first bundle our existing stimuli sequence into a single trial.
     const fixation = {
         type: jsPsychHtmlKeyboardResponse,
         stimulus: '+',
-        trial_duration: 800
+        trial_duration: 800,
+        response_ends_trial: false
     }
     
     const stroopStimulus = {
@@ -182,7 +183,8 @@ Our code for a simple stroop task is now finished. If we want to add trials or c
     const fixation = {
         type: jsPsychHtmlKeyboardResponse,
         stimulus: '+',
-        trial_duration: 800
+        trial_duration: 800,
+        response_ends_trial: false
     }
     
     const stroopStimulus = {

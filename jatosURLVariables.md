@@ -122,7 +122,8 @@ const feedback = {
         const fixation = {
             type: jsPsychHtmlKeyboardResponse,
             stimulus: '+',
-            trial_duration: 800
+            trial_duration: 800,
+            response_ends_trial: false
         }
 
         const stroopStimulus = {

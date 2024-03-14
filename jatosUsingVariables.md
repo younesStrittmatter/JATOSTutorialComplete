@@ -49,7 +49,8 @@ To achieve this, we wrap our jsPsych code into an onload callback of JATOS
         const fixation = {
             type: jsPsychHtmlKeyboardResponse,
             stimulus: '+',
-            trial_duration: 800
+            trial_duration: 800,
+            response_ends_trial: false
         }
 
         const stroopStimulus = {
@@ -157,7 +158,8 @@ Since participants start the experiment without finishing it, it is advised to u
         const fixation = {
             type: jsPsychHtmlKeyboardResponse,
             stimulus: '+',
-            trial_duration: 800
+            trial_duration: 800,
+            response_ends_trial: false
         }
 
         const stroopStimulus = {

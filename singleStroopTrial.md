@@ -256,7 +256,7 @@ We also want the stimulus to be shown for a specific time. Let's say 2500ms. We 
 ## (6) A complete Trial: Adding fixation cross and feedback
 ### (6.1) Add a fixation cross
 
-Let's add a fixation cross before the Stroop stimulus is shown. We just have to define another trial without any choices and with a + as stimulus. Then we add this fixation cross to the timeline.
+Let's add a fixation cross before the Stroop stimulus is shown. We just have to define another trial without any choices and with a + as stimulus. We also don't want to end the fixation cross if the participant presses a key. To indicate this, we use the `response_ends_trial` parameter. Then we add this fixation cross to the timeline.
 ```html
 <!DOCTYPE html>
 <html>
@@ -274,7 +274,8 @@ Let's add a fixation cross before the Stroop stimulus is shown. We just have to 
     const fixation = {
         type: jsPsychHtmlKeyboardResponse,
         stimulus: '+',
-        trial_duration: 800
+        trial_duration: 800,
+        response_ends_trial: false,
     }
     
     const stroopStimulus = {
@@ -311,7 +312,8 @@ We also want to add feedback. Remember: If the color is `blue`, the participant 
     const fixation = {
         type: jsPsychHtmlKeyboardResponse,
         stimulus: '+',
-        trial_duration: 800
+        trial_duration: 800,
+        response_ends_trial: false
     }
     
     const stroopStimulus = {

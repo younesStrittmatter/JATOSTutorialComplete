@@ -4,7 +4,7 @@
 - Login. Username: admin, Password: admin
 - Create a new study (click on `New Study` in the header)
 - Name the study and chose a study assets directory name (can be the same name)
-- There is now a new folder in the in a directory called `study_assets_root` in your JATOS installation directory</li>
+- There is now a new folder in the in a directory called `study_assets_root` in your JATOS installation directory
   - Here, we add assets for our study. For example html files that we can add as components
 - Add a file `experiment.html` to your study assets
 - In the browser, add a new component (navigate to your study and click on `New component`
