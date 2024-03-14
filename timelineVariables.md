@@ -42,7 +42,8 @@ Let's first bundle our existing stimuli sequence into a single trial.
                 return 'TOO SLOW'
             }
         },
-        trial_duration: 1000
+        trial_duration: 1000,
+        response_ends_trial: false,
     }
     
     // Bundle the stimuli into a trial
@@ -149,7 +150,8 @@ const feedback = {
                 }
             }
         },
-        trial_duration: 1000
+        trial_duration: 1000,
+        response_ends_trial: false,
     }
     
 // ...
@@ -221,7 +223,8 @@ Our code for a simple stroop task is now finished. If we want to add trials or c
                 }
             }
         },
-        trial_duration: 1000
+        trial_duration: 1000,
+        response_ends_trial: false,
     }
     
     const trial = {

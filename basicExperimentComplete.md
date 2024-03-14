@@ -66,7 +66,8 @@ Here is the full code for a perfectly counterbalanced stroop experiment
                     }
                 }
             },
-            trial_duration: 1000
+            trial_duration: 1000,
+            response_ends_trial: false,
         }
 
         const trial = {

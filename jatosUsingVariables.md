@@ -87,7 +87,8 @@ To achieve this, we wrap our jsPsych code into an onload callback of JATOS
                     }
                 }
             },
-            trial_duration: 1000
+            trial_duration: 1000,
+            response_ends_trial: false,
         }
 
         const trial = {
@@ -196,7 +197,8 @@ Since participants start the experiment without finishing it, it is advised to u
                     }
                 }
             },
-            trial_duration: 1000
+            trial_duration: 1000,
+            response_ends_trial: false,
         }
 
         const trial = {

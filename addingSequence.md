@@ -72,7 +72,8 @@ const trialSequences = [[{
     const fixation = {
         type: jsPsychHtmlKeyboardResponse,
         stimulus: '+',
-        trial_duration: 800
+        trial_duration: 800,
+        response_ends_trial: false,
     }
 
     const stroopStimulus = {
@@ -109,7 +110,8 @@ const trialSequences = [[{
                 }
             }
         },
-        trial_duration: 1000
+        trial_duration: 1000,
+        response_ends_trial: false,
     }
 
     const trial = {

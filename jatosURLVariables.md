@@ -80,7 +80,8 @@ const feedback = {
             }
         }
     },
-    trial_duration: 1000
+    trial_duration: 1000,
+    response_ends_trial: false,
 }
 ```
 
@@ -160,7 +161,8 @@ const feedback = {
                     }
                 }
             },
-            trial_duration: 1000
+            trial_duration: 1000,
+            response_ends_trial: false,
         }
 
         const trial = {

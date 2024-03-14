@@ -336,7 +336,8 @@ We also want to add feedback. Remember: If the color is `blue`, the participant 
                 return 'TOO SLOW' // if the response was neither f nor j we present the text TOO SLOW
             }
         },
-        trial_duration: 1000
+        trial_duration: 1000,
+        response_ends_trial: false,
     }
     
     // Add the feedback to the timeline
